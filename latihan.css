@@ -1,0 +1,280 @@
+#beranda {
+  padding-top: 55px;
+  background-color: #bae5f2;
+}
+#hubungikami {
+  min-height: 600px;
+}
+.navbar-toggler {
+  color: #0368ca !important;
+}
+.navbar-toggler-icon {
+  /* background-color: #0368ca !important; */
+  color: #0368ca !important;
+  border-color: #0368ca !important;
+}
+.section {
+  padding-top: 90px;
+}
+nav {
+  background-color: #fff;
+}
+.nav-brand {
+  padding: 2px 0;
+}
+.nav-brand img {
+  width: 120px;
+}
+
+.nav-link {
+  color: #0368ca !important;
+}
+#produk h1,
+h5,
+p {
+  color: #0368ca;
+}
+#produk button {
+  margin-left: 10px;
+}
+#produk .produk img {
+  margin-left: 30px;
+  width: 70%;
+}
+#produk {
+  background-color: #bae5f2;
+}
+#resep {
+  background-color: #bae5f2;
+}
+.btn-tri {
+  color: #0d6efd;
+  padding: 10px;
+  background-color: none;
+  border-color: #0d6efd;
+  font-size: 18px;
+  font-weight: 400;
+}
+.btn-tri:hover {
+  color: #fff;
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+}
+.btn-tri2 {
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  background-color: #ffffff;
+  border-color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+}
+.btn-tri2:hover {
+  color: #0368ca;
+
+  border-color: #0368ca;
+}
+
+#produk .produk img:hover {
+  background-image: url(./img/hover-produk.png);
+  background-repeat: no-repeat;
+  background-size: full;
+}
+.card-tentang p {
+  padding: 5px 20px;
+  color: rgb(0, 0, 0) !important;
+  font-size: 18px;
+  text-align: justify;
+}
+.card-tentang h4 {
+  padding: 5px 20px;
+}
+.card-tentang {
+  height: 400px;
+  background-color: white;
+  overflow-y: scroll;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px white;
+}
+#tentangkami {
+  background-color: #bae5f2;
+}
+
+#tentangkami hr,
+h1 {
+  color: #0368ca;
+}
+.card-resep {
+  width: 80%;
+  margin-left: 35px;
+
+  background-color: #fff;
+  margin-top: 50px;
+}
+.card-resep img {
+  padding: 10px;
+  width: 150px;
+  height: 150px;
+  width: 80%;
+}
+.card-resep p {
+  padding-bottom: 20px;
+}
+#layanankomersil {
+  min-height: 600px;
+}
+#resep h1,
+h2,
+p {
+  color: #0d6efd;
+}
+.btn-group {
+  display: flex;
+}
+.btn-active {
+  color: #ffffff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  bottom: 1px;
+  font-size: 14px;
+  border-radius: 30px;
+}
+.btn-active:hover {
+  color: #fff;
+}
+.btn-disable {
+  color: #ffffff;
+  background-color: gray;
+  bottom: 1px;
+  font-size: 14px;
+  border-radius: 30px;
+}
+.btn-disable:hover {
+  color: #fff;
+}
+#layanankomersil p {
+  color: black !important;
+}
+#layanankomersil {
+  background-image: url(./img/bg_body.png);
+}
+footer img {
+  float: left;
+  margin-left: 10px;
+}
+footer p {
+  color: #fff !important;
+}
+footer {
+  padding: 20px 0;
+}
+form label {
+  color: #fff;
+}
+form {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  border-radius: 20px;
+}
+form button {
+  margin-left: 5px;
+}
+#hubungikami {
+  background-image: url(./img/bg_body.png);
+}
+@media (max-width: 570px) {
+  #produk .produk img {
+    margin-left: 30px;
+    width: 80%;
+  }
+  #produk button {
+    margin-left: 100px;
+  }
+  .card-resep img {
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+    width: 80%;
+  }
+  .card-resep {
+    width: 80%;
+    margin-left: 35px;
+
+    background-color: #fff;
+    margin-top: 1px;
+  }
+  form button {
+    margin-left: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .carousel-item img {
+    height: 570px;
+  }
+  #beranda {
+    padding-top: 80px;
+  }
+  #produk h1 {
+    font-size: 50px;
+  }
+
+  .nav-brand {
+    padding: 5px 0;
+  }
+  .nav-brand img {
+    width: 200px;
+  }
+  .nav-link {
+    text-transform: uppercase;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 10px solid #0368ca;
+    padding-bottom: 22px;
+    margin-bottom: -32px;
+  }
+  #produk .produk img {
+    margin-left: 1px;
+    width: 80%;
+  }
+  #tentangkami h1 {
+    font-size: 50px;
+  }
+  #Resep h1 {
+    font-size: 50px;
+  }
+  .card-resep img {
+    padding: 20px;
+    width: 265px;
+    height: 265px;
+  }
+  .card-resep {
+    width: 100%;
+    margin-left: 1px;
+    margin-top: 1px;
+
+    background-color: #fff;
+  }
+
+  #produk button {
+    margin-left: 70px;
+  }
+  footer img {
+    float: left;
+    margin-left: 100px;
+  }
+  footer p {
+    margin-top: 10px;
+  }
+  from {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  form button {
+    margin-left: 25px;
+  }
+}
